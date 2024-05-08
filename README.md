@@ -8,6 +8,10 @@ A simple web scraper for the Becker County Jail website.
 
 ![image](https://github.com/sstock2005/bcj-api/assets/144393153/e0bc8a6a-b7c9-4ba8-a07a-be63de332a05)
 
+## Installation
+- Requires Python 3.12.1
+- `pip install -r requirements.txt`
+- Run `app.py`
 ## Disclaimer
 
 <strong>This API is intended for informational purposes only. The data provided by this API is sourced from publicly available records and is not intended to be used as a tool for harassment or violation of privacy.  

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BCJ-API</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#000000">
+        <style>
+            .error,a{color:#dc143c}*{box-sizing:border-box}body{font-size:1.25rem;margin:0 auto;max-width:40rem;padding:1rem 2rem}body,input,select,textarea{font-family:Roboto,sans-serif}a{text-decoration-skip:ink;transition:color .25s}a:focus,a:hover{color:#b22222}a:active{color:#000}caption,h1,h2,h3{font-family:Montserrat,sans-serif}h2,h3:not(:first-child){margin:3rem 0 1rem}img{height:auto;max-width:100%}p{line-height:1.25}li ul{margin:.75rem 0}li{margin-bottom:.25rem}label,textarea{display:block;margin:1rem 0}legend{padding:0 1rem}fieldset{border:1px solid #d3d3d3;border-radius:.25rem}button{background-color:#dc143c;color:#fff;border:0;border-radius:.25rem;padding:.5rem 1rem;transition:background .25s}button:focus,button:hover{background-color:#b22222}.container,button[disabled],code,kbd,pre{background-color:#f5f5f5}button[disabled]{border:1px solid #d3d3d3;color:#a9a9a9}caption{font-size:2rem;font-weight:700}table{border-collapse:collapse;margin:2em 0}td,th{border:1px solid Silver;padding:1em}code,kbd,pre{font-family:"Source Code Pro",monospace;letter-spacing:-1px;overflow-x:scroll}[tabindex="0"],a[href],area[href],button,input[type=checkbox],input[type=color],input[type=file],input[type=image],input[type=radio],input[type=range],input[type=submit],label[for],select,summary{cursor:pointer}button[disabled],input[disabled],select[disabled],textarea[disabled]{cursor:not-allowed}.horizontal-list{list-style-type:none;margin:0;padding:0}.horizontal-list__item{display:inline-block;margin:.25rem}.icon{fill:currentColor}.icon--new-window{height:1rem;width:1rem}.icon--social{height:2rem;width:2rem}.error{display:block}.container{margin:1rem 0;padding:1rem}.container h2{margin:0 0 1rem}.visuallyhidden{border:0;clip:rect(0 0 0 0);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap}
+        </style>
+    </head>
+<body>
+<center>
+<h1>Becker County Jail Stats</h1>
+<p>programmed by sam stockstrom</p>
+
+<table>
+  <tbody>
+    <tr>
+      <th scope="row">Average Age of Inmate</th>
+      <td style="text-align: center;">{{ avg }} years</td>
+    </tr>
+    <tr>
+      <th scope="row">Percentage of Drunk Crashers</th>
+      <td style="text-align: center;">{{ dc }}%</td>
+    </tr>
+    <tr>
+      <th scope="row">Percentage of Predators</th>
+      <td style="text-align: center;">{{ pp }}%</td>
+    </tr>
+  </tbody>
+</table>
+<p>last updated: {{ lu }}</p>
+<p>check out the api <a href="/api/">here</a></p>
+</center>
+</body>
+</html>

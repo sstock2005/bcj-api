@@ -2,7 +2,11 @@
 A simple web scraper for the Becker County Jail website.  
 
 ## Showcase
+![image](https://github.com/sstock2005/bcj-api/assets/144393153/f9ac3db2-9f15-4a17-868b-bd9b58bc6df7)
 
+![image](https://github.com/sstock2005/bcj-api/assets/144393153/524a2f02-db0e-4170-98c8-7274024661d7)
+
+![image](https://github.com/sstock2005/bcj-api/assets/144393153/e0bc8a6a-b7c9-4ba8-a07a-be63de332a05)
 
 ## Disclaimer
 
